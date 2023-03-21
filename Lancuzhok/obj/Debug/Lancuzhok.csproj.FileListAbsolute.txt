@@ -1,0 +1,10 @@
+D:\Visual Studio расположение\source\repos\Lancuzhok\Lancuzhok\bin\Debug\Lancuzhok.exe.config
+D:\Visual Studio расположение\source\repos\Lancuzhok\Lancuzhok\bin\Debug\Lancuzhok.exe
+D:\Visual Studio расположение\source\repos\Lancuzhok\Lancuzhok\bin\Debug\Lancuzhok.pdb
+D:\Visual Studio расположение\source\repos\Lancuzhok\Lancuzhok\obj\Debug\Lancuzhok.csproj.AssemblyReference.cache
+D:\Visual Studio расположение\source\repos\Lancuzhok\Lancuzhok\obj\Debug\Lancuzhok.Form1.resources
+D:\Visual Studio расположение\source\repos\Lancuzhok\Lancuzhok\obj\Debug\Lancuzhok.Properties.Resources.resources
+D:\Visual Studio расположение\source\repos\Lancuzhok\Lancuzhok\obj\Debug\Lancuzhok.csproj.GenerateResource.cache
+D:\Visual Studio расположение\source\repos\Lancuzhok\Lancuzhok\obj\Debug\Lancuzhok.csproj.CoreCompileInputs.cache
+D:\Visual Studio расположение\source\repos\Lancuzhok\Lancuzhok\obj\Debug\Lancuzhok.exe
+D:\Visual Studio расположение\source\repos\Lancuzhok\Lancuzhok\obj\Debug\Lancuzhok.pdb
