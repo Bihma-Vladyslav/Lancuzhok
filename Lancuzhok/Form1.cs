@@ -19,14 +19,16 @@ namespace Lancuzhok
         BankHanler h1 = null;
         BankHanler h2 = null;
         BankHanler h3 = null;
+        BankHanler h4 = null;
         private void Form1_Load(object sender, EventArgs e)
         {
             h1 = new PrivatBankHandler();
             h2 = new SavingBankHandler();
             h3 = new SenseBankHandler();
+            h4 = new SenseBankHandler();
             h1.setNext(h2);
             h2.setNext(h3);
-            //h2.setNext(h3);
+            h3.setNext(h4);
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -42,6 +44,11 @@ namespace Lancuzhok
         private void button3_Click_1(object sender, EventArgs e)
         {
             h1.request(new Card(3));
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            h1.request(new Card(4));
         }
     }
 }

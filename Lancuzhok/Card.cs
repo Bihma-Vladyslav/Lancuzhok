@@ -87,7 +87,7 @@ namespace Lancuzhok
     {
         public override void request(Card c)
         {
-            if (c.type == 3)
+            if (c.type == 4)
             {
                 cards.Add(c);
                 MessageBox.Show("Your request was successful. Have your salo and borsh, kozache");
