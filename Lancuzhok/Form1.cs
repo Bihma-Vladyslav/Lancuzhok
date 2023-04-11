@@ -16,10 +16,10 @@ namespace Lancuzhok
         {
             InitializeComponent();
         }
-        BankHanler h1 = null;
-        BankHanler h2 = null;
-        BankHanler h3 = null;
-        BankHanler h4 = null;
+        BankHandler h1 = null;
+        BankHandler h2 = null;
+        BankHandler h3 = null;
+        BankHandler h4 = null;
         private void Form1_Load(object sender, EventArgs e)
         {
             h1 = new PrivatBankHandler();

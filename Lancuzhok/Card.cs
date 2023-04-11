@@ -21,7 +21,7 @@ namespace Lancuzhok
         void setNext(Bank b);
         void request(Card c);
     }
-    class BankHanler : Bank
+    class BankHandler : Bank
     {
         protected Bank next;
         public List<Card> cards = new List<Card>();
@@ -37,7 +37,7 @@ namespace Lancuzhok
             }
         }
     }
-    class PrivatBankHandler : BankHanler
+    class PrivatBankHandler : BankHandler
     {
         public override void request(Card c)
         {
@@ -52,7 +52,7 @@ namespace Lancuzhok
             }
         }
     }
-    class SavingBankHandler : BankHanler
+    class SavingBankHandler : BankHandler
     {
         public override void request(Card c)
         {
@@ -67,7 +67,7 @@ namespace Lancuzhok
             }
         }
     }
-    class SenseBankHandler : BankHanler
+    class SenseBankHandler : BankHandler
     {
         public override void request(Card c)
         {
@@ -83,7 +83,7 @@ namespace Lancuzhok
             }
         }
     }
-    class MonoBankHandler : BankHanler
+    class MonoBankHandler : BankHandler
     {
         public override void request(Card c)
         {
